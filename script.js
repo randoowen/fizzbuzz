@@ -4,3 +4,4 @@ function pengecekkan(a){
     }
 }
 let input = document.getElementById("Nilai")
+pengecekkan(input.value)
