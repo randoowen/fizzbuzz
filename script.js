@@ -7,4 +7,7 @@ function pengecekkan(a){
 
 }
 let input = document.getElementById("Nilai")
-pengecekkan(input.value)
+let button = document.getElementsByTagName("button")[0]
+button.addEventListener("click", function(){
+    pengecekkan(input.value)
+})
