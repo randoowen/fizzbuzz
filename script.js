@@ -3,3 +3,4 @@ function pengecekkan(a){
         console.log("Ini kelipatan 5")
     }
 }
+let input = document.getElementById("Nilai")
